@@ -42,6 +42,13 @@ npm install
 ```
 
 Create a `.env` file in the `backend` folder:
+GEMINI_API_KEY=your_gemini_api_key
+
+CF_ACCOUNT_ID=your_cloudflare_account_id
+
+CF_API_TOKEN=your_cloudflare_api_token
+
+PORT=3001
 Start the backend:
 ```bash
 npm start
@@ -64,6 +71,31 @@ Visit **http://localhost:5173**
 - **Cloudflare AI** — free at [dash.cloudflare.com](https://dash.cloudflare.com) → Workers AI → REST API (get Account ID + API Token)
 
 ## 📁 Project Structure
+emotion-wallpaper-pro/
+
+├── backend/
+
+│   ├── server.js
+
+│   ├── package.json
+
+│   └── .env (not committed)
+
+└── frontend/
+
+├── src/
+
+│   ├── App.jsx
+
+│   └── components/
+
+│       ├── EmotionGrid.jsx
+
+│       └── WallpaperCard.jsx
+
+├── index.html
+
+└── package.json
 ## 📄 License
 
 This project was built for educational purposes as part of a Generative AI lab.
